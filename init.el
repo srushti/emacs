@@ -17,7 +17,7 @@
  (lambda(package)
 	 (load-file (concat package ".el"))) 
  (packages '( 
-"distel-init"
+;;"distel-init"
 "ecb-init"
 "magit-init"
 "yas-init"
