@@ -17,11 +17,8 @@
 
 (setq rinari-tags-file-name "TAGS")
 (setq my-global-projects-dirs (quote (
-"~/dev/elisp"
-"~/dev/ruby/ror"
-"~/dev/clojure"
-"~/dev/snippets"
-"~/dev/dotfiles"
+"~/Work/ruby/ror"
+"~/Work/snippets"
 )))
 
 (require 'maxframe)

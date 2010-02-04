@@ -1,9 +1,7 @@
 (load-file 
  (concat
  (car 
-	(split-string 
-	 (car (cdr (split-string	 
+	 (split-string	 
 							(shell-command-to-string  
-							 "gem which haml") "\n" t)))
-	 "/lib/haml.rb*" t))
+							 "gem which haml") "/lib/haml.rb\n" t))
  "/extra/haml-mode.el"))

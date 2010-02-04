@@ -17,14 +17,14 @@
  (lambda(package)
 	 (load-file (concat package ".el"))) 
  (packages '( 
-"distel-init"
+;;"distel-init"
 "ecb-init"
 "magit-init"
 "yas-init"
 "rinari-init"
 "rspec-init"
 "textmate-init"
-;;"haml-init"
+"haml-init"
 "yaml-init"
 ;;"twit-el-init"
 "clojure-init"
