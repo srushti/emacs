@@ -18,6 +18,7 @@
 	 (load-file (concat package ".el"))) 
  (packages '( 
 ;;"distel-init"
+"maxframe-init"
 "ecb-init"
 "magit-init"
 "yas-init"
@@ -65,7 +66,9 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
+ '(ecb-layout-window-sizes (quote (("left8" (ecb-directories-buffer-name 0.175 . 0.2857142857142857) (ecb-sources-buffer-name 0.175 . 0.23214285714285715) (ecb-methods-buffer-name 0.175 . 0.2857142857142857) (ecb-history-buffer-name 0.175 . 0.17857142857142858)))))
  '(ecb-options-version "2.40")
+ '(linum-format "%4d ")
  '(show-paren-mode t)
  '(transient-mark-mode t))
 (custom-set-faces
