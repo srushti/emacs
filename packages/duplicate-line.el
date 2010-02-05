@@ -34,3 +34,4 @@
   (next-line arg))
 
 (global-set-key (kbd "\C-cd") 'duplicate-line)
+(global-set-key (kbd "A-d") 'duplicate-line)

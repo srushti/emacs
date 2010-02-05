@@ -40,6 +40,5 @@
   "/\\.|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar")
 (setq auto-mode-alist (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
 
-(global-set-key (kbd "A-d") "\C-a\C- \C-n\M-w\C-y")
 (global-set-key (kbd "A-D") "\M-w\C-y")
 (setq highlight-current-line-globally t)
