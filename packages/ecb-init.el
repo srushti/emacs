@@ -3,5 +3,5 @@
 (load-file "~/.emacs.d/packages/cedet/common/cedet.el")
 (load-file "~/.emacs.d/packages/ecb/ecb.el")
 (require 'ecb)
-
+(setq ecb-tip-of-the-day nil)
 (ecb-activate)
