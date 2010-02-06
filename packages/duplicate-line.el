@@ -33,5 +33,4 @@
   ;; put the point in the lowest line and return
   (next-line arg))
 
-(global-set-key (kbd "\C-cd") 'duplicate-line)
-(global-set-key (kbd "A-d") 'duplicate-line)
+(provide 'duplicate-line)

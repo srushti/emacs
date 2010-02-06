@@ -1,17 +1,25 @@
-(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
-;;(if (fboundp 'menu-bar-mode) (menu-bar-mode -1)) Need this on osx
-(setq inhibit-splash-screen t)
-
-(setq make-backup-files nil)
 (custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(ecb-compilation-buffer-names (quote (("*vc*") ("*vc-diff*") ("*Apropos*") ("*eshell*") ("*Occur*") ("*shell*" . t) ("\\*[cC]ompilation.*\\*" . t) ("\\*i?grep.*\\*" . t) ("*Help*") ("*Completions*") ("*Backtrace*") ("*Compile-log*") ("*Messages*") ("*magit: " . t))))
+ '(ecb-compile-window-height 6)
+ '(ecb-compile-window-width (quote frame))
+ '(ecb-layout-name "left7")
+ '(ecb-maximize-ecb-window-after-selection t)
+ '(ecb-options-version "2.40")
+ '(ecb-tip-of-the-day nil)
+ '(ecb-tree-indent 2)
+ '(ecb-vc-enable-support t)
+ '(ecb-windows-width 0.2)
+ '(linum-format "%4d ")
  '(show-paren-mode t)
  '(transient-mark-mode t))
 (c-mode)
 
 (c-toggle-hungry-state)
 
-(global-set-key "\177" 'c-hungry-delete-backwards)
-(global-set-key "\C-d" 'c-hungry-delete-forward)
 (fset 'yes-or-no-p 'y-or-n-p)
 (setq default-tab-width 2)
 
