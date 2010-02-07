@@ -52,6 +52,7 @@
 (require 'duplicate-line)
 (require 'growl-init)
 (require 'yas-init)
+(require 'autocomplete-init)
 ;; VC
 (require 'dvc-init)
 (require 'magit-init)
@@ -64,6 +65,7 @@
 (require 'espresso-init)
 
 ;; Rails
+(require 'rsense-init)
 (require 'rinari-init)
 (require 'rspec-init)
 (require 'textmate-init)
