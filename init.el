@@ -41,6 +41,7 @@
 (setq initial-scratch-message nil)
 (setq rct-get-all-methods-command "PAGER=cat fri -l")
 
+(add-to-list 'auto-mode-alist '("\\.haml\\" . haml-mode))
 
 (set-frame-width (selected-frame) 200)
 (set-frame-height (selected-frame) 100)
