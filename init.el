@@ -87,7 +87,7 @@
 
 ;;(require 'php-mode)
 (require 'clojure-init)
-;;(require 'distel-init)
+(require 'distel-init)
 (require 'haskell-init)
 
 ;;Color
