@@ -13,3 +13,4 @@
 (setq ecb-fix-window-size (quote width))
 (setq ecb-compile-window-width (quote edit-window))
 (provide 'ecb-init)
+

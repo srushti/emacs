@@ -112,6 +112,7 @@
 (put 'dired-find-alternate-file 'disabled nil)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
@@ -130,6 +131,10 @@
   ;; If there is more than one, they won't work right.
  )
  
+=======
+(load-file "~/.emacs.d/custom.el")
+(load-file "~/.emacs.d/key-bindings.el")
+>>>>>>> a86bf382c3f750b739174b02ae05666aa38c5caf
 =======
 (load-file "~/.emacs.d/custom.el")
 (load-file "~/.emacs.d/key-bindings.el")
