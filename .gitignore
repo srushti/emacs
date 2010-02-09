@@ -1,7 +1,7 @@
 .DS_Store
 places
-*/**/*.elc
 *.elc
 url/*
 auto-save-list
-*.before_ecb_2.*
+*.swp
+

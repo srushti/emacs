@@ -76,6 +76,7 @@
 (require 'rinari-init)
 (require 'rspec-init)
 (require 'textmate-init)
+(require 'textile-mode)
 (require 'haml-init)
 
 ;;(require 'php-mode)
