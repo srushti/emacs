@@ -8,7 +8,7 @@
  '(aquamacs-tool-bar-user-customization nil t)
  '(default-frame-alist (quote ((menu-bar-lines . 1) (cursor-type . box) (vertical-scroll-bars . right) (internal-border-width . 0) (left-fringe . 1) (right-fringe) (fringe) (tool-bar-lines . 0) (background-color . "#191717") (background-mode . dark) (border-color . "black") (cursor-color . "#A7A7A7") (foreground-color . "#D2DEC4"))))
  '(ecb-activation-selects-ecb-frame-if-already-active t)
- '(ecb-compilation-buffer-names (quote (("*vc*") ("*vc-diff*") ("*Apropos*") ("*eshell*") ("*Occur*") ("*shell*" . t) ("\\*[cC]ompilation.*\\*" . t) ("\\*i?grep.*\\*" . t) ("*Help*") ("*Completions*") ("*Backtrace*") ("*Compile-log*") ("*Messages*") ("*magit: " . t))))
+ '(ecb-compilation-buffer-names (quote (("*vc*") ("*vc-diff*") ("*anything*") ("*Apropos*") ("*eshell*") ("*Occur*") ("*shell*" . t) ("\\*[cC]ompilation.*\\*" . t) ("\\*i?grep.*\\*" . t) ("*Help*") ("*Completions*") ("*Backtrace*") ("*Compile-log*") ("*Messages*") ("*magit: " . t))))
  '(ecb-compile-window-height 6)
  '(ecb-compile-window-temporally-enlarge (quote both))
  '(ecb-compile-window-width (quote frame))
