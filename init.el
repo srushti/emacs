@@ -37,11 +37,10 @@
 (setq *textmate-gf-exclude*
   "/\\.|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
 (setq auto-mode-alist (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '(".haml$" . haml-mode) auto-mode-alist))
 (setq highlight-current-line-globally t)
 (setq initial-scratch-message nil)
 (setq rct-get-all-methods-command "PAGER=cat fri -l")
-
-(add-to-list 'auto-mode-alist '("\\.haml\\" . haml-mode))
 
 (set-frame-width (selected-frame) 200)
 (set-frame-height (selected-frame) 100)
