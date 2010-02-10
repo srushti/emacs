@@ -8,8 +8,10 @@
 
 (require 'ecb)
 (setq ecb-tip-of-the-day nil)
+
 (setq ecb-auto-compatibility-check nil)
 (setq ecb-auto-activate t)
 (setq ecb-fix-window-size (quote width))
 (setq ecb-compile-window-width (quote edit-window))
 (provide 'ecb-init)
+

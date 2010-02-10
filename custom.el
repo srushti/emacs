@@ -59,6 +59,8 @@
 
 (global-set-key (kbd "A-D") "\M-w\C-y")
 (setq highlight-current-line-globally t)
+ '(show-paren-mode t)
+ '(transient-mark-mode t))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
