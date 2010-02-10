@@ -60,6 +60,7 @@
 (require 'duplicate-line)
 (require 'growl-init)
 (require 'yas-init)
+(require 'browse-kill-ring-init)
 (require 'autocomplete-init)
 (require 'anything)
 (require 'anything-show-completion)
