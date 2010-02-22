@@ -21,7 +21,7 @@
 	url = git://github.com/jwiegley/haskell-mode.git
 [submodule "packages/clojure-mode"]
 	path = packages/clojure-mode
-	url = git://github.com/jochu/clojure-mode.git
+	url = git://github.com/technomancy/clojure-mode.git
 [submodule "packages/twilight-emacs"]
 	path = packages/twilight-emacs
 	url = git://github.com/crafterm/twilight-emacs.git
@@ -91,3 +91,9 @@
 [submodule "packages/jdee"]
 	path = packages/jdee
 	url = git://github.com/emacsmirror/jdee.git
+[submodule "packages/slime"]
+	path = packages/slime
+	url = git://github.com/emacsmirror/slime.git
+[submodule "packages/android-mode"]
+	path = packages/android-mode
+	url = git://github.com/remvee/android-mode.git
