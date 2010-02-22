@@ -53,7 +53,9 @@
 (if (eq system-type 'darwin)
 		(shell-command (concat "open " (file-name-directory (buffer-file-name))))))
 
+(require 'cl)
 ;; Common
+(require 'ack)
 (require 'ecb-init)
 (require 'linum-init)
 (require 'highlight-current-line)
@@ -85,9 +87,10 @@
 (require 'anything-rcodetools)
 ;; Rails
 (require 'rinari-init)
-(require 'haml-init)
+;;(require 'haml-init)
 
 ;;(require 'php-mode)
+(require 'slime-init)
 (require 'clojure-init)
 ;;(require 'distel-init)
 (require 'haskell-init)
@@ -102,7 +105,7 @@
 (load "~/.emacs.d/packages/nxhtml/autostart.el")
 
 ;; Default Loads 
-(require 'cl)
+
 (require 'saveplace)
 (require 'ffap)
 (require 'uniquify)
