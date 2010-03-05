@@ -4,4 +4,5 @@ places
 url/*
 auto-save-list
 *.swp
-
+ac-comphist.dat
+*.before_ecb_*.*
