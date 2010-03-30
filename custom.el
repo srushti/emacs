@@ -24,7 +24,8 @@
  '(linum-format "%4d ")
  '(ns-alternate-modifier (quote meta))
  '(ns-tool-bar-display-mode nil t)
- '(ns-tool-bar-size-mode nil t))
+ '(ns-tool-bar-size-mode nil t)
+ '(show-paren-mode nil))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
