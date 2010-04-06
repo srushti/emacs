@@ -63,7 +63,7 @@
 	url = git://github.com/irfn/zen-and-art.git
 [submodule "packages/growl"]
 	path = packages/growl
-	url = git://github.com/emacsmirror/growl.git
+	url = git://github.com/srushti/growl.git
 [submodule "packages/rinari"]
 	path = packages/rinari
 	url = git://github.com/eschulte/rinari.git
