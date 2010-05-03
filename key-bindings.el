@@ -23,7 +23,7 @@
 (global-set-key "\C-cy" 'browse-kill-ring)
 
 (global-set-key (kbd "ESC M-a") 'ack)
-
+(global-set-key [M-backspace] 'delete-region)
 
 
 
