@@ -35,7 +35,7 @@
   (interactive)
   (setq outline-regexp " *\\(def\\|if\\|when\\|do\\)"))
 (setq *textmate-gf-exclude*
-  "/\\.|vendor|fixtures|tmp|log|build|public/flash|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
+  "/\\.|vendor|fixtures|tmp|log|build|public/flash|*Flash|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
 (setq auto-mode-alist (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '(".haml$" . haml-mode) auto-mode-alist))
 (setq highlight-current-line-globally t)
