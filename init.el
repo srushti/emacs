@@ -35,7 +35,7 @@
   (interactive)
   (setq outline-regexp " *\\(def\\|if\\|when\\|do\\)"))
 (setq *textmate-gf-exclude*
-  "/\\.|flash|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
+  "/\\.|*Flash|*flash|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
 (setq auto-mode-alist (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '(".haml$" . haml-mode) auto-mode-alist))
 (setq highlight-current-line-globally t)
@@ -120,3 +120,5 @@
 (load-file "~/.emacs.d/key-bindings.el")
 (ecb-toggle-ecb-windows)
 (put 'set-goal-column 'disabled nil)
+(line-number-mode)
+(column-number-mode)
