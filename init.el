@@ -120,3 +120,5 @@
 (load-file "~/.emacs.d/key-bindings.el")
 (ecb-toggle-ecb-windows)
 (put 'set-goal-column 'disabled nil)
+(line-number-mode)
+(column-number-mode)
